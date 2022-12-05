@@ -21,7 +21,7 @@ public static String remove(String str1,String str2){
 }
   public static String makeSarcaticastic(String a){
     String result = "";
-    for(int i =0;i<a.length();i++){
+    while (int i =0;i<a.length();i++){
       String b = a.substring(i,i+1);
       if(a.indexOf(b)%2 == 0){
         result += b.toUpperCase();
